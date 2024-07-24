@@ -1,6 +1,6 @@
 const { ActivityType, EmbedBuilder } = require('discord.js');
-const client = require('..');
-const { fetch } = require('@halpz/fetch');
+const client = require('../index.js');
+// const { fetch } = require('@halpz/fetch');
 
 client.on('ready', async () => {
 
